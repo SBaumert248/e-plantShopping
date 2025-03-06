@@ -106,7 +106,6 @@ body {
     transition: background-color 0.3s ease-in-out;
     margin-top: 10px;
 }
-
 .product-button:hover {
     background-color: #c0392b;
 }
@@ -188,6 +187,12 @@ body {
 
     
 }
+
+.totalCount{
+    position : relative;
+    left : 45px;
+}
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
@@ -199,6 +204,19 @@ body {
 
 .product-button {
     background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .disable-button {
+    background-color: #ccc;
     border: none;
     color: white;
     padding: 10px 20px;
